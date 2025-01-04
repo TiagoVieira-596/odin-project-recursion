@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /home/tiago/TOP/odin-project-recursion/lib/fibonacci.rb:26 Object#fibs_rec:
+
+    [1;34m18[0m: [32mdef[0m [1;34mfibs_rec[0m(length)
+    [1;34m19[0m:   [32mif[0m length <= [1;34m1[0m
+    [1;34m20[0m:     [32mreturn[0m [[1;34m0[0m]
+    [1;34m21[0m:   [32melsif[0m length == [1;34m1[0m
+    [1;34m22[0m:     [32mreturn[0m [[1;34m0[0m, [1;34m1[0m]
+    [1;34m23[0m:   [32mend[0m
+    [1;34m24[0m: 
+    [1;34m25[0m:   binding.pry
+ => [1;34m26[0m:   sequence = [] [32mif[0m sequence.nil?
+    [1;34m27[0m:   sequence << fibs_rec(length - [1;34m1[0m)[[1;34m-1[0m] + fibs_rec(length - [1;34m2[0m)[[1;34m0[0m]
+    [1;34m28[0m:   sequence
+    [1;34m29[0m: [32mend[0m
+

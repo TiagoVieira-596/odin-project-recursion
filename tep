@@ -1,0 +1,19 @@
+
+[1mFrom:[0m /home/tiago/TOP/odin-project-recursion/lib/merge.rb:8 Object#merge_sort:
+
+     [1;34m2[0m: [32mdef[0m [1;34mmerge_sort[0m(unorganized_list)
+     [1;34m3[0m:   [32mif[0m unorganized_list.length <= [1;34m2[0m
+     [1;34m4[0m:     unorganized_list[[1;34m0[0m]
+     [1;34m5[0m:     unorganized_list[[1;34m-1[0m]
+     [1;34m6[0m:   [32mend[0m
+     [1;34m7[0m: 
+ =>  [1;34m8[0m:   first_half = merge_sort(unorganized_list.slice([1;34m0[0m, unorganized_list.length / [1;34m2[0m))
+     [1;34m9[0m:   second_half = merge_sort(unorganized_list)
+    [1;34m10[0m: 
+    [1;34m11[0m:   [32mif[0m first_half > second_half
+    [1;34m12[0m:     unorganized_list[[1;34m0[0m] = second_half
+    [1;34m13[0m:     unorganized_list[[1;34m-1[0m] = first_half
+    [1;34m14[0m:   [32mend[0m
+    [1;34m15[0m:   unorganized_list
+    [1;34m16[0m: [32mend[0m
+
